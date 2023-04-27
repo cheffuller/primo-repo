@@ -58,10 +58,10 @@ div.header {
 
 .tooltip {
     position: relative;
-    display: inline-block;
+    display: flex;
   }
   
-  /* Tooltip text */
+    /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
     background-color: rgb(85, 85, 85, 0.75);
@@ -71,11 +71,7 @@ div.header {
     border-radius: 10px;
 
     /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-    top: 40%;
-    left: 40%;
-    margin-left: -40px;
+    margin: auto;
 
     /* Fade in tooltip */
     opacity: 0;
